@@ -56,7 +56,7 @@ export class TutorialDetailsComponent implements OnInit {
       .subscribe(
         response => {
           console.log(response);
-          this.message = 'The tutorial was updated successfully!';
+          this.message = 'The books was updated successfully!';
         },
         error => {
           console.log(error);
